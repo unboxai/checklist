@@ -90,7 +90,7 @@ class Perturb:
                 t.append(p)
                 add.append(a)
             ret_data.append(t)
-            meta.append(add)
+            meta.append(i)
             samples += 1
             if nsamples and samples == nsamples:
                 break
